@@ -1,0 +1,267 @@
+{
+    "general": {
+        "initialUrl": "https://community.moosocial.com",
+        "enableGCM": false,
+        "notificationTime" : 3000,
+        "apiKey" : "betamoo"
+    },
+    "list_urls":{
+        "all_notification":"/notifications/ajax_show/home",
+        "home_everyone":"/activities/ajax_browse/everyone",
+        "home_friend":"/activities/ajax_browse/friends",
+        "term_service" : "/pages/terms-of-service",
+        "privacy_policy" : "/pages/privacy-policy",
+        "link_create_account" : "/users/avatar"
+    },
+    "menus": {
+        "pages":[
+                   {
+                   "url": "/pages/about-us",
+                   "label": "menus_pages_about_us",
+                   "key": "pages_about_us"
+                   },
+                   {
+                   "url": "/pages/terms-of-service",
+                   "label": "menus_pages_term_service",
+                   "key": "pages_term_service"
+                   },
+                   {
+                   "url": "/pages/privacy-policy",
+                   "label": "menus_pages_privacy_policy",
+                   "key": "pages_privacy_policy"
+                   },
+                 {
+                 "url": "/home/contact",
+                 "label": "menus_pages_contact_us",
+                 "key": "pages_contact_us"
+                 }
+                   ],
+        "account":[
+                   {
+                   "url": "/users/profile",
+                   "label": "menus_account_profile_information",
+                   "key": "account_profile"
+                   },
+                   {
+                   "url": "/users/avatar",
+                   "label": "menus_account_change_profile_picture",
+                   "key": "account_picture"
+                   },
+                   {
+                   "url": "/users/password",
+                   "label": "menus_account_change_password",
+                   "key": "account_password"
+                   },
+                   {
+                   "url": "/conversations/ajax_browse",
+                   "label": "menus_account_message",
+                   "key": "message_manage"
+                   },
+                   {
+                   "url": "/users/email_settings",
+                   "label": "menus_account_email_settings",
+                   "key": "email_settings"
+                   },
+                   {
+                   "url": "/users/notification_settings",
+                   "label": "menus_account_notification_settings",
+                   "key": "notification_settings"
+                   },
+                   {
+                   "url": "/users/email_settings",
+                   "label": "menus_account_email_settings",
+                   "key": "email_settings"
+                   },
+                   {
+                   "url": "/friends/ajax_invite",
+                   "label": "menus_account_invite_friends",
+                   "key": "account_invite"
+                   },
+                   {
+                   "url": "/friends/ajax_requests",
+                   "label": "menus_account_friend_requests",
+                   "key": "friend_requests"
+                   },
+                   {
+                   "url": "/users/do_logout",
+                   "label": "menus_account_logout",
+                   "key": "account_logout"
+                   }
+                   ],
+        "items": [
+                  
+                  {
+                  "url": "/users/ajax_browse/all",
+                  "label": "items_people",
+                  "icon":"ic_member",
+                  "key": "users",
+                  "action":{
+                    "js_callback": "window.userAction.toggleSearchForm();",
+                    "type": "find",
+                  },
+                  "subLinks": [
+                               {
+                               "url": "/users/ajax_browse/all",
+                               "label": "items_people_everone"
+                               },
+                               {
+                               "url": "/users/ajax_browse/friend",
+                               "label": "items_people_my_friends"
+                               }
+                               ]
+                  },
+                  {
+                  "url": "/blogs/browse/all",
+                  "label": "items_blogs",
+                  "icon":"ic_blog",
+                  "key": "blogs",
+                  "action":{
+                    "url": "/blogs/create",
+                    "type": "add",
+                  },
+                  "subLinks": [
+                               {
+                               "url": "/blogs/browse/all",
+                               "label": "items_blogs_all_entries"
+                               },
+                               {
+                               "url": "/blogs/browse/my",
+                               "label": "items_blogs_my_entries"
+                               },
+                               {
+                               "url": "/blogs/browse/friends",
+                               "label": "items_blogs_friends_entries"
+                               }
+                               ]
+                  },
+                  {
+                  "url": "/albums/browse/all",
+                  "label": "items_photos",
+                  "icon":"ic_photo",
+                  "key": "photos_albums",
+                  "action":{
+                    "url": "/photo/albums/create",
+                    "type": "add",
+                  },
+                  "subLinks": [
+                               {
+                               "url": "/albums/browse/all",
+                               "label": "items_photos_all_photos"
+                               },
+                               {
+                               "url": "/albums/browse/my",
+                               "label": "items_photos_my_photos"
+                               },
+                               {
+                               "url": "/albums/browse/friends",
+                               "label": "items_photos_friends_photos"
+                               }
+                               ]
+                  },
+                  {
+                  "url": "/videos/browse/all",
+                  "label": "items_videos",
+                  "icon":"ic_video",
+                  "key": "videos",
+                  "action":{
+                    "url": "/video/videos/create",
+                    "type": "add",
+                  },
+                  "subLinks": [
+                               {
+                               "url": "/videos/browse/all",
+                               "label": "items_videos_all_videos"
+                               },
+                               {
+                               "url": "/videos/browse/my",
+                               "label": "items_videos_my_videos"
+                               },
+                               {
+                               "url": "/videos/browse/friends",
+                               "label": "items_videos_friends_videos"
+                               }
+                               ]
+                  },
+                  {
+                  "url": "/topics/browse/all",
+                  "label": "items_topics",
+                  "icon":"ic_topic",
+                  "key": "topics",
+                  "action":{
+                    "url": "/topics/create",
+                    "type": "add",
+                  },
+                  "subLinks": [
+                               {
+                               "url": "/topics/browse/all",
+                               "label": "items_topics_all_topics"
+                               },
+                               {
+                               "url": "/topics/browse/my",
+                               "label": "items_topics_my_topics"
+                               },
+                               {
+                               "url": "/topics/browse/friends",
+                               "label": "items_topics_friends_topics"
+                               }
+                               ]
+                  },
+                  {
+                  "url": "/groups/browse/all",
+                  "label": "items_groups",
+                  "icon":"ic_group",
+                  "key": "groups",
+                  "action":{
+                    "url": "/groups/create",
+                    "type": "add",
+                  },
+                  "subLinks": [
+                               {
+                               "url": "/groups/browse/all",
+                               "label": "items_groups_all_groups"
+                               },
+                               {
+                               "url": "/groups/browse/my",
+                               "label": "items_groups_my_groups"
+                               },
+                               {
+                               "url": "/groups/browse/friends",
+                               "label": "items_groups_friends_groups"
+                               }
+                               ]
+                  },
+                  {
+                  "url": "/events/browse/upcoming",
+                  "label": "items_events",
+                  "icon":"ic_event",
+                  "key": "events",
+                  "action":{
+                    "url": "/events/create",
+                    "type": "add",
+                  },
+                  "subLinks": [
+                               { 
+                               "url": "/events/browse/upcoming",
+                               "label": "items_events_upcoming_events"
+                               },
+                               {
+                               "url": "/events/browse/myupcomming",
+                               "label": "items_events_my_upcoming_events"
+                               },
+                               {
+                               "url": "/events/browse/mypast",
+                               "label": "items_events_my_past_events"
+                               },
+                               {
+                               "url": "/events/browse/friendattend",
+                               "label": "items_events_friend_attending_events"
+                               },
+                               {
+                               "url": "/events/browse/past",
+                               "label": "items_events_past_events"
+                               }
+                               ]
+                  }
+                  ]
+    }
+}

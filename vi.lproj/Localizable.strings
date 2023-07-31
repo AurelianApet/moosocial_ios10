@@ -1,0 +1,152 @@
+/* 
+  Localizable.strings
+  mooApp
+  Copyright © 2016 moosocialloft. All rights reserved.
+*/
+// All page
+"all_page_message_loading" = "Vui lòng chờ ...";
+"all_page_message_checking_internet" = "Kiểm tra kết nối Internet";
+"all_page_message_authenticating_user" = "Xác định và chứng thực người dùng";
+"all_page_message_no_result_found" = "Không tìm thấy kết quả";
+"all_page_message_rerfesing_token" = "Cập nhập OAuth Access Token";
+"all_page_alert_dialog_title" = "Lỗi";
+"all_page_alert_dialog_message" = "Lời nhắn";
+"all_page_alert_dialog_button" = "Xác nhận";
+"all_page_message_invalid_email" = "Địa chỉ email không hợp lệ.";
+"all_page_message_invalid_paswd" = "Mật khẩu không hợp lệ (phải dài hơn 6 ký tự)";
+"all_page_message_invalid_token" = "Token không hợp lệ";
+"all_page_message_invalid_user" = "Người dùng không hợp lệ";
+"all_page_message_expired_token" = "Token đã hết hạn";
+"all_page_message_not_image" = "Không phải là một hình ảnh";
+"all_page_message_not_internet" = "Thiết bị không kết nối với Internet";
+"all_page_message_keyword_more_characters" = "Cần ít nhất một từ khóa tích cực với 1 ký tự hoặc nhiều hơn.";
+// Signup page
+"signup_page_sign_up_title" = "Đăng kí";
+"signup_page_sign_up_new_account_label" = "Tạo tài khoản!";
+"signup_page_it_free_and_always_label" = "Miễn phí";
+
+"signup_page_email_label" = "Email";
+"signup_page_email_placeholder_txtfield" = "Email";
+"signup_page_email_err_label" = "Nhập địa chỉ email hợp lệ";
+
+"signup_page_name_label" = "Tên";
+"signup_page_name_placeholder_txtfield" = "Tên";
+"signup_page_name_err_label" = "Tên là bắt buộc";
+
+"signup_page_pass_label" = "Mật khẩu";
+"signup_page_pass_placeholder_txtfield" = "Mật khẩu";
+"signup_page_pass_err_label" = "Mật khẩu là bắt buộc";
+
+"signup_page_verify_pass_label" = "Xác nhận  mật khẩu";
+"signup_page_verify_pass_placeholder_txtfield" = "Xác nhận  Mật khẩu";
+"signup_page_verify_pass_err_label" = "Mật khẩu là bắt buộc";
+"signup_page_verify_pass_err_label_2" = "Mật khẩu không khớp với mật khẩu xác nhận";
+"signup_page_birthday_label" = "Ngày sinh";
+"signup_page_birthday_placeholder_txtfield" = "Ngày sinh";
+"signup_page_birthday_err_label" = "Ngày sinh là bắt buộc";
+
+"signup_page_gender_label" = "Giới tính";
+"signup_page_gender_placeholder_txtfield" = "Giới tính";
+"signup_page_gender_err_label" = "Giới tính là bắt buộc";
+
+"signup_page_agree_text_view" = "Bằng việc đăng ký, bạn đồng ý với Điều khoản Dịch vụ của chúng tôi và rằng bạn đã đọc Chính sách bảo mật của chúng tôi";
+"signup_page_agree_text_view_link_string_1" = "Điều khoản Dịch vụ";
+"signup_page_agree_text_view_link_string_2" = "Chính sách bảo mật";
+"signup_page_gender_option_male_label" = "Nam";
+"signup_page_gender_option_female_label" = "Nữ";
+
+"signup_page_create_button" = "Tạo";
+"your_account_is_pending_for_approval" = "Tài khoản của bạn đang đợi xác nhận";
+
+// Login page
+"login_page_email_lablel" = "EMAIL";
+"login_page_email_text_field" = "EMAIL";
+"login_page_password_label" = "MẬT KHẨU";
+"login_page_password_text_field" = "MẬT KHẨU";
+"login_page_login_button" = "ĐĂNG NHẬP";
+"login_page_singup_button" = "Đăng kí tài khoản";
+// Notifications page
+"notifications_page_buton_clear_all_notifications" = "Xoá tất cả thông báo";
+"notifications_page_mesage_no_new_notifications" = "Không có thông báo";
+"notifications_page_buton_read" = "Đọc";
+"notifications_page_buton_unread" = "Chưa đọc";
+"notifications_page_buton_delete" = "Xoá";
+// Messages page
+"messages_message_no_more_results_found" = "Không có lời nhắn";
+// Change Profile Picture page
+"change_profile_picture_message_tap_on_the_picture" = "Chạm vào ảnh để thay đổi như avatar của bạn.";
+// Post Feeds Page
+"post_feeds_page_title" = "What's on your mind?";
+"post_feeds_add_to_your_post" ="Add to your post";
+"post_feeds_tag_friends" ="Tag Friends";
+"post_feeds_photo" ="Photo";
+"post_status_processing" ="Please wait while your status is being posted.";
+"post_feeds_tag_with" =" - with ";
+"post_feeds_tag_and" =" and ";
+"post_feeds_tag_others" =" others";
+"post_feeds_select_friend" ="Select Friend";
+"post_feeds_select_friend_placeholder" ="Friend's Name?";
+"post_feeds_select_group" ="Select Group";
+"post_feeds_select_group_placeholder" ="Group's Name?";
+"post_feeds_select_email" ="Email Address";
+"post_feeds_select_email_placeholder" ="Seperate email by comma";
+"post_feeds_cancel" ="Cancel";
+"post_feeds_remove_link" ="Remove Link";
+// Comment Page
+"comment_page_write_a_comment"="Write a comment";
+"comment_status_processing" ="Please wait while your comment is being posted.";
+// Tabbars items
+"tabbar_whats_news" = "Có gì mới?";
+"tabbar_notifications" = "Thông báo";
+"tabbar_message" = "Lời nhắn";
+"tabbar_more" = "Khác";
+// More menu
+"menus_pages_about_us"="Giới thiệu";
+"menus_pages_term_service"="Điều khoản dịch vụ";
+"menus_pages_privacy_policy"="Chính sách riêng tư";
+"menus_pages_contact_us"="Liên hệ";
+// Left menu
+"menus_account_profile_menu"="Danh mục cá nhân";
+"menus_account_profile_information"="Thông tin cá nhân";
+"menus_account_change_profile_picture"="Đổi ảnh đại diện";
+"menus_account_change_password"="Đổi mật khẩu";
+"menus_account_message"="Lời nhắn";
+"menus_account_invite_friends"="Mời bạn bè";
+"menus_account_friend_requests"="Lời mời kết bạn";
+"menus_account_logout"="Đăng xuất";
+"menus_account_notification_settings"="Notification Settings";
+"menus_account_email_settings"="Email notification settings";
+// Items menu
+"items_whats_new_everyone"= "Mọi người";
+"items_whats_new_friends_me"= "Bạn bè & Tôi";
+"items_people" = "Bạn bè";
+"items_people_everone" = "Mọi người";
+"items_people_my_friends" = "Bạn bè của tôi";
+"items_blogs"="Blogs";
+"items_blogs_all_entries" = "Tất cả entry";
+"items_blogs_my_entries" = "Entry của tôi";
+"items_blogs_friends_entries" = "Entry của bạn bè";
+"items_photos" = "Ảnh";
+"items_photos_all_photos" = "Tất cả hình ảnh";
+"items_photos_my_photos" = "Ảnh của tôi";
+"items_photos_friends_photos" = "Ảnh của bạn bè";
+"items_videos" = "Videos";
+"items_videos_all_videos" = "Tất cả video";
+"items_videos_my_videos" = "Video của tôi";
+"items_videos_friends_videos" = "Video của bạn bè";
+"items_topics" = "Chủ đề";
+"items_topics_all_topics" = "Tất cả chủ đề";
+"items_topics_my_topics" = "Chủ đề của tôi";
+"items_topics_friends_topics" = "Chủ đề của bạn bè";
+"items_groups" = "Nhóm";
+"items_groups_all_groups" = "Tất cả nhóm";
+"items_groups_my_groups" = "Nhóm của tôi";
+"items_groups_friends_groups" = "Nhóm của bạn bè";
+"items_events" = "Sự kiện";
+"items_events_upcoming_events" = "Upcoming Events";
+"items_events_my_upcoming_events" = "My Upcoming Events";
+"items_events_my_past_events" = "My Past Events";
+"items_events_friend_attending_events" = "Friends Attending";
+"items_events_past_events" = "Past Events";
+
+

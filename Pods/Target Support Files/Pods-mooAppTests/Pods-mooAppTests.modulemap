@@ -1,0 +1,6 @@
+framework module Pods_mooAppTests {
+  umbrella header "Pods-mooAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

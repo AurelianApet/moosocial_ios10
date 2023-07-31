@@ -1,0 +1,184 @@
+/*
+ Localizable.strings
+ mooApp
+ Copyright © 2016 moosocialloft. All rights reserved.
+ */
+// All page
+"all_page_message_loading" = "Loading...";
+"all_page_message_checking_internet" = "Checking Internet connection";
+"all_page_message_authenticating_user" = "Identifying and authenticating user";
+"all_page_message_no_result_found" = "No result found";
+"all_page_message_rerfesing_token" = "Refreshing an OAuth Access Token";
+"all_page_alert_dialog_title" = "Error";
+"all_page_alert_dialog_message" = "Message";
+"all_page_alert_dialog_button" = "Ok";
+"all_page_message_invalid_email" = "Invalid email address.";
+"all_page_message_invalid_paswd" = "Invalid password (must be  more than 6 characters long)";
+"all_page_message_invalid_token" = "Your token is invalid";
+"all_page_message_invalid_user" = "Invalid User";
+"all_page_message_expired_token" = "Your token has expired";
+"all_page_message_not_image" = "It is not an image";
+"all_page_message_not_internet" = "Device is not connected to Internet";
+"all_page_message_keyword_more_characters" = "You must include at least one positive keyword with 1 characters or more.";
+// Login page
+"login_page_login_title" = "Login";
+"login_page_email_lablel" = "EMAIL";
+"login_page_email_text_field" = "Email";
+"login_page_password_label" = "PASSWORD";
+"login_page_password_text_field" = "Password";
+"login_page_login_button" = "LOGIN";
+"login_page_singup_button" = "No account yet ? Create one";
+"login_page_forgot_password" = "Forgot Password";
+"login_page_sign_in" = "SIGN IN";
+"login_page_social_confirm" = "Confirm";
+"login_page_social_confirm_description" = "Please confirm your password to associate your facebook/google account with this account";
+"login_page_social_text" = "Or Sign In With";
+// Signup page
+"signup_page_sign_up_title" = "Sign Up";
+"signup_page_sign_up_new_account_label" = "Sign Up New Account!";
+"signup_page_it_free_and_always_label" = "It's FREE and always";
+
+"signup_page_email_label" = "Email";
+"signup_page_email_placeholder_txtfield" = "Email";
+"signup_page_email_err_label" = "Enter a valild email address";
+
+"signup_page_name_label" = "Name";
+"signup_page_name_placeholder_txtfield" = "Name";
+"signup_page_name_err_label" = "Name is required";
+
+"signup_page_pass_label" = "Password";
+"signup_page_pass_placeholder_txtfield" = "Password";
+"signup_page_pass_err_label" = "Password is required";
+
+"signup_page_verify_pass_label" = "Verify  Password";
+"signup_page_verify_pass_placeholder_txtfield" = "Verify  Password";
+"signup_page_verify_pass_err_label" = "Password is required";
+"signup_page_verify_pass_err_label_2" = "Password does not match the verify password";
+"signup_page_birthday_label" = "Birthday";
+"signup_page_birthday_placeholder_txtfield" = "Birthday";
+"signup_page_birthday_err_label" = "Birthday is required";
+
+"signup_page_gender_label" = "Gender";
+"signup_page_gender_placeholder_txtfield" = "Gender";
+"signup_page_gender_err_label" = "Gender is required";
+"signup_page_gender_option_male_label" = "Male";
+"signup_page_gender_option_female_label" = "Female";
+
+"signup_page_agree_text_view" = "By siging up, you agree to our Terms of Service and that you have read our Privacy Policy";
+"signup_page_agree_text_view_link_string_1" = "Terms of Service";
+"signup_page_agree_text_view_link_string_2" = "Privacy Policy";
+
+"signup_page_create_button" = "Create";
+"your_account_is_pending_for_approval" = "Your account is pending for approval";
+
+"signup_page_create" = "CREATE";
+"signup_page_social_text" = "Sign Up  With";
+"signup_page_or_email_text" = "Or Email";
+
+// Notifications page
+"notifications_page_buton_clear_all_notifications" = "Clear All Notifications";
+"notifications_page_mesage_no_new_notifications" = "No new notifications";
+// Messages page
+"messages_message_no_more_results_found" = "No more results found";
+// Change Profile Picture page
+"change_profile_picture_message_tap_on_the_picture" = "Touch the image to change your avatar.";
+// Post Feeds Page
+"post_feeds_page_title" = "What's on your mind?";
+"post_feeds_add_to_your_post" ="Add to your post";
+"post_feeds_tag_friends" ="Tag Friends";
+"post_feeds_photo" ="Photo";
+"post_status_processing" ="Please wait while your status is being posted.";
+"post_feeds_tag_with" =" - with ";
+"post_feeds_tag_and" =" and ";
+"post_feeds_tag_others" =" others";
+"post_feeds_select_friend" ="Select Friend";
+"post_feeds_select_friend_placeholder" ="Friend's Name?";
+"post_feeds_select_group" ="Select Group";
+"post_feeds_select_group_placeholder" ="Group's Name?";
+"post_feeds_select_email" ="Email Address";
+"post_feeds_select_email_placeholder" ="Seperate email by comma";
+"post_feeds_cancel" ="Cancel";
+"post_feeds_remove_link" ="Remove Link";
+// Comment Page
+"comment_page_write_a_comment"="Write a comment";
+"comment_status_processing" ="Please wait while your comment is being posted.";
+// Tabbars items
+"tabbar_whats_news" = "What's New";
+"tabbar_notifications" = "Notifications";
+"tabbar_message" = "Message";
+"tabbar_more" = "More";
+// More menu
+"menus_pages_about_us"="About Us";
+"menus_pages_term_service"="Terms of Service";
+"menus_pages_privacy_policy"="Privacy Policy";
+"menus_pages_contact_us"="Contact Us";
+// Left menu
+"menus_account_profile_menu"="PROFILE MENU";
+"menus_account_profile_information"="Profile Information";
+"menus_account_change_profile_picture"="Change Profile Picture";
+"menus_account_change_password"="Change Password";
+"menus_account_message"="Message";
+"menus_account_invite_friends"="Invite Friends";
+"menus_account_friend_requests"="Friend Requests";
+"menus_account_logout"="Logout";
+"menus_account_notification_settings"="Notification Settings";
+"menus_account_email_settings"="Email notification settings";
+// Items menu
+"items_whats_new_everyone"= "Everyone";
+"items_whats_new_friends_me"= "Friends & Me";
+"items_people" = "People";
+"items_people_everone" = "Everyone";
+"items_people_my_friends" = "My Friends";
+"items_blogs" = "Blogs";
+"items_blogs_all_entries" = "All Entries";
+"items_blogs_my_entries" = "My Entries";
+"items_blogs_friends_entries" = "Friends' Entries";
+"items_photos" = "Photos";
+"items_photos_all_photos" = "All Photos";
+"items_photos_my_photos" = "My Photos";
+"items_photos_friends_photos" = "Friends' Photos";
+"items_videos" = "Videos";
+"items_videos_all_videos" = "All Videos";
+"items_videos_my_videos" = "My Videos";
+"items_videos_friends_videos" = "Friends' Videos";
+"items_topics" = "Topics";
+"items_topics_all_topics" = "All Topics";
+"items_topics_my_topics" = "My Topics";
+"items_topics_friends_topics" = "Friends' Topics";
+"items_groups" = "Groups";
+"items_groups_all_groups" = "All Groups";
+"items_groups_my_groups" = "My Groups";
+"items_groups_friends_groups" = "Friends' Groups";
+"items_events" = "Events";
+"items_events_upcoming_events" = "Upcoming Events";
+"items_events_my_upcoming_events" = "My Upcoming Events";
+"items_events_my_past_events" = "My Past Events";
+"items_events_friend_attending_events" = "Friends Attending";
+"items_events_past_events" = "Past Events";
+
+//slider
+"landing_slider_description_one" = "Helps building online community easily and affordably";
+"landing_slider_description_two" = "The most featured packed, stable and fastest “mobile-friendly” social network software";
+"landing_slider_description_three" = "Expand easily, affordably with high-quality plugins and themes made by the same team";
+"landing_slider_description_four" = "Publishable mobile apps will bring your community closer customers' finger tip";
+"landing_privacy" = "Privacy";
+"landing_term_of_service" = "Term of Service";
+"landing_sign_up" = "SIGN UP";
+"landing_login" = "LOGIN";
+
+//forgot
+"forgot_page_title" = "Forgot Password";
+"forgot_page_text" = "Please enter your email to reset your password";
+"forgot_page_email_text_field" = "Email";
+"forgot_page_send" = "SEND";
+"forgot_page_success" = "An email has been sent to the email address that you entered. Please follow the instructions to reset your password.";
+
+//share
+"share_page_alert_select_friends_to_share" = "Please select friends to share";
+"share_page_alert_select_groups_to_share" = "Please select groups to share";
+"share_page_alert_input_email_to_share" = "Please input emails to share";
+
+//album photo
+"album_photo_post_failure" = "Can not upload image, please try again!";
+"album_photo_saving_photo" = "Saving photo";
+"album_photo_upload" = "Upload";

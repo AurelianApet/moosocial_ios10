@@ -1,0 +1,55 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "048D396A08727842F969038BB11E3598EC510B56+++3C9B5AA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "048D396A08727842F969038BB11E3598EC510B56+++3C9B5AA" : {
+
+    },
+    "47d0518a-86bc-c44f-836c-887ff31b043a++8999+++0CB3076" : {
+
+    },
+    "47d0518a-86bc-c44f-836c-887ff31b043a++2392+++F32C2E2" : {
+
+    },
+    "47d0518a-86bc-c44f-836c-887ff31b043a++8999+++B30ADAD" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "048D396A08727842F969038BB11E3598EC510B56+++3C9B5AA" : 0,
+    "47d0518a-86bc-c44f-836c-887ff31b043a++8999+++0CB3076" : 0,
+    "47d0518a-86bc-c44f-836c-887ff31b043a++2392+++F32C2E2" : 0,
+    "47d0518a-86bc-c44f-836c-887ff31b043a++8999+++B30ADAD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F88522E4-CCE3-457B-9F83-37F642953135",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "048D396A08727842F969038BB11E3598EC510B56+++3C9B5AA" : "ios\/",
+    "47d0518a-86bc-c44f-836c-887ff31b043a++8999+++0CB3076" : "mooApp\/",
+    "47d0518a-86bc-c44f-836c-887ff31b043a++2392+++F32C2E2" : "..\/Androi\/androidV",
+    "47d0518a-86bc-c44f-836c-887ff31b043a++8999+++B30ADAD" : "mooApp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "mooApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "mooApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/server.socialloft.com:8443\/svn\/moosocial",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "048D396A08727842F969038BB11E3598EC510B56+++3C9B5AA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/server.socialloft.com:8443\/svn\/moosocial",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "47d0518a-86bc-c44f-836c-887ff31b043a++2392+++F32C2E2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/server.socialloft.com:8443\/svn\/moosocial",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "47d0518a-86bc-c44f-836c-887ff31b043a++8999+++0CB3076"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/server.socialloft.com:8443\/svn\/moosocial",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "47d0518a-86bc-c44f-836c-887ff31b043a++8999+++B30ADAD"
+    }
+  ]
+}
